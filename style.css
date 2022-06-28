@@ -54,7 +54,7 @@
 .Xiao1{
     height: 100vh;
     width: 100%;
-    background-image: url(/img/B6.jpg);
+    background-image: url(B6.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -153,7 +153,7 @@ h4{
 .bell3{
     width: 100%;
     padding: 100px 0px;
-    background-image: url(/img/B7.jpeg);
+    background-image: url(B7.jpeg);
     background-size: cover;
     background-position: center;
 }
@@ -313,7 +313,7 @@ h5{
     align-items: center;
     height: 60vh;
     width: 45vw;
-    background-image: url(/img/B10.jpg);
+    background-image: url(B10.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 30px;
