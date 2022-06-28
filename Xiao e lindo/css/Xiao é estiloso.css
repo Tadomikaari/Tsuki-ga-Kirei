@@ -1,0 +1,334 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans' , sans-serif;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+.S2{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.05);
+}
+.S1{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    background: linear-gradient(to top, #008aff, #00ffe7);
+    animation: animate 5s linear infinite;
+}
+@keyframes animate {
+    0%,100%{
+        filter: hue-rotate(0deg);
+    }
+    50%{
+        filter: hue-rotate(360deg);
+    }
+}
+.S1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #008aff, #00ffe7);
+    filter: blur(10px);
+}
+.S1::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #008aff, #00ffe7);
+    filter: blur(30px);
+}
+.Xiao1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/img/B6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.bell1{
+    color: #EA46B6;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: #660046;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: #EA46B6;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #660046;
+    transition: .5s;
+}
+.bntt{
+    background-color: #EA46B6;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .5s;
+}
+.bntt:hover{
+    transform: scale(1.2);
+}
+.bell2{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%)
+}
+h1{
+    color: #661F4F;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3{
+    color: #660046;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+h4{
+    color: #661F4F;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.hestia1{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.hestia1 input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #661F4F;
+    outline: none;
+    border-radius: 30px;
+}
+.hestia1 button:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #661F4F;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+}
+.bell3{
+    width: 100%;
+    padding: 100px 0px;
+    background-image: url(/img/B7.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.bell3 img{
+    border: 10px solid #B3007A;
+    height: auto;
+    width: 430px;
+    border-radius: 30px;
+}
+.hestia4{
+    width: 550px;
+}
+.hestia3{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hestia4 h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    animation: float 4s ease-in-out infinite;
+    transform: translateY(0px);
+}
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.SP1{
+    color: #EA46B6;
+}
+.hestia4 h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.hestia4 p{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.hestia4 img{
+    border-radius: 120px;
+    border: 5px solid #B3007A;
+    height: 200px;
+    width: 210px;
+}
+.hestia5{
+    position: relative;
+    width: 150px;
+    height: 120px;
+    margin-left: 15vw;
+}
+.girar{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;  
+}
+.hestia5:hover .girar{
+    transform: rotateY(180deg);
+}
+.A1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+.A2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+.bell4{
+    background: #FF69B4;
+    width: 100%;
+    padding: 100px 0px;
+}
+.hestia6 h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.aiz1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.aiz2{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #FFC0CB;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.aiz2 i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #B3007A;
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.aiz3 p{
+    color: white;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.aiz2 .bot{
+    background-color: #661F4F;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.aiz2 .bot:hover{
+    background-color: transparent;
+    border: 2px solid #661F4F;
+    cursor: pointer;
+}
+.Xiao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 45vw;
+    background-image: url(/img/B10.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    margin-top: 10vh;
+    margin-left: 45vw;
+}
+.Xiao p{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+}
+.Xiao_I{
+    display: none;
+}
+.Xiao_V{
+    display: static;
+}
