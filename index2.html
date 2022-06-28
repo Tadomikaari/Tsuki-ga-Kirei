@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Xiao e perfeito</title>
+</head>
+<body>
+    <div id="P1" class="S1"></div>
+    <div id="P2" class="S2"></div>
+    <div class="container">
+        <div class="bubbles">
+            <span style="--i:11;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:24;"></span>
+            <span style="--i:10;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:19;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:22;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:21;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:26;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:28;"></span>
+            <span style="--i:11;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:24;"></span>
+            <span style="--i:10;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:19;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:22;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:21;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:26;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:28;"></span>
+        </div>
+        <div class="fofo">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="/img/B11.jpg" alt="Fofo">
+                </div>
+                <div class="content">
+                    <h2>Xiao <br> <span>Genshin Impact</span></h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="/img/B12.jpg" alt="Fofo">
+                </div>
+                <div class="content">
+                    <h2>Reki Kyan <br> <span>Sk8 the infinity</span></h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="/img/B13.jpg" alt="Fofo">
+                </div>
+                <div class="content">
+                    <h2>Saiki Kusou<br> <span>Saiki Kusuo no Psi-nan</span></h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="/img/B14.jpg" alt="Fofo">
+                </div>
+                <div class="content">
+                    <h2>Sakura Haruno <br> <span>Naruto</span></h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="/img/B4.jpg" alt="Fofo">
+                </div>
+                <div class="content">
+                    <h2>Xiao <br> <span>Yaksha</span></h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="/img/B4.jpg" alt="Fofo">
+                </div>
+                <div class="content">
+                    <h2>Xiao <br> <span>Lindo</span></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        let progress = document.getElementById('P1')
+        let totalHeight = document.body.scrollHeight - window.innerHeight;
+        window.onscroll = function() {
+            let progressHeight = (window.pageYOffset / totalHeight) * 100;
+            progress.style.height = progressHeight + "%";
+        }
+    </script>
+</body>
+</html>
