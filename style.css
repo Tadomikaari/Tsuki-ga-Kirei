@@ -346,6 +346,13 @@ h5{
     font-size: 18px;
     text-align: center;
 }
+.Xiao .X4{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-size: 14px;
+    text-align: center;
+}
 .Xiao_I{
     display: none;
 }
