@@ -26,10 +26,10 @@
             <a href="#" class="bntt">Lerdinha</a>
         </nav>
         <div class="bell2">
-            <h4>Agenda da Brenda</h4>
+            <h4>Agenda da Br<span class="SP4">e</span>nda</h4>
             <h1>Organização</h1>
             <h1 id="L1"></h1>
-            <h3>Ve se fica menos estressada agora</h3>
+            <h3><span>V</span>e se fica menos estressada agora</h3>
             <div class="hestia1">
                     <div class="hestia2"><input type="text" id="hum" placeholder="Resposta"></div>
                     <div class="hestia2"><button onclick="XiaoPerfeito()">Confirmar</button></div>
@@ -58,14 +58,21 @@
                 </p>
             </div>
         </div>
+        <div id="X3" class="Xiao_I">
+            <div class="Xiao">
+                <p> Meus parabéns você acaba de matar a charada! Pra começar eu queria pedir desculpas.
+                    Bem a resposta da charada não e brincadeira ou piada, 
+                </p>
+            </div>
+        </div>
     </div>
     <section class="bell3">
         <div class="hestia3">
             <img src="B3.jpg" alt="Te odeio de um jeito bom...">
             <div class="hestia4">
-                <h2>Histo<span class="SP1">rinha</span></h2>
+                <h2>Hist<span class="SP3">o</span><span class="SP1">rinha</span></h2>
                 <h5>私は役に立たない私は知っている</h5>
-                <p>Bell é o primeiro membro da família de Hestia e o seu interesse amoroso.
+                <p>Bell é o primeiro membro da família de Hestia e o s<span>eu</span> interesse <span class="SP2">amo</span>roso.
                 Hestia parece ter amado Bell desde que ele se juntou pela primeira vez a sua
                 Família, pois ninguém queria se juntar a ela e os dois estavam sozinhos no mundo.</p>
                 <div class="hestia5">
@@ -98,7 +105,7 @@
                     <i class="far fa-user"></i>
                     <h5>organizar</h5>
                     <div class="aiz3">
-                        <p> também conhecida como DanMachi junto com o subtítulo Família Myth</p>
+                        <p> Bell <span>C</span>ranel é o personagem principal de Dungeon ni Deai</p>
                         <p style="text-align: center;">
                             <a class="bot" href="index2.html">Vamos Lá</a>
                         </p>
@@ -129,6 +136,7 @@
             let sur = document.getElementById('hum').value;
             let resp1 = "Esta mesmo";
             let resp2 = "Não esta";
+            let resp3 = "eu amo voce";
             if (sur == resp1) {
                 document.getElementById('X1').className = "Xiao_V";
                 document.getElementById('X2').className = "Xiao_I";
@@ -137,6 +145,11 @@
             if (sur == resp2) {
                 document.getElementById('X2').className = "Xiao_V";
                 document.getElementById('X1').className = "Xiao_I";
+            }
+             if (sur == resp3) {
+                document.getElementById('X1').className = "Xiao_I";
+                document.getElementById('X2').className = "Xiao_I";
+                document.getElementById('X3').className = "Xiao_V";
             }
         }
     </script>
