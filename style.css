@@ -109,6 +109,12 @@ nav ul li a:hover{
     left: 8%;
     transform: translateY(-50%)
 }
+.bell2 span{
+    color: #00ffe7;
+}
+.bell2 .SP4{
+    color: #00ffe7;
+}
 h1{
     color: #661F4F;
     margin: 20px 0px 20px;
@@ -193,8 +199,14 @@ h4{
         transform: translateY(0px);
     }
 }
-.SP1{
+.hestia4 .SP1{
     color: #EA46B6;
+}
+.hestia4 .SP2{
+    color: #00ffe7;
+}
+.hestia4 .SP3{
+    color: #00ffe7;
 }
 .hestia4 h5{
     color: white;
@@ -209,6 +221,9 @@ h4{
     line-height: 28px;
     font-size: 18px;
     margin-bottom: 45px;
+}
+.hestia4 span{
+    color: #00ffe7;
 }
 .hestia4 img{
     border-radius: 120px;
@@ -281,6 +296,9 @@ h4{
     text-align: center;
     margin: 25px 0px;
     color: #B3007A;
+}
+.aiz2 span{
+    color: #00ffe7;
 }
 h5{
     color: white;
