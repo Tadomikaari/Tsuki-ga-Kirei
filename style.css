@@ -316,6 +316,7 @@ h5{
     background-image: url(B10.jpg);
     background-size: cover;
     background-position: center;
+    border: 10px solid #660046;
     border-radius: 30px;
     margin-top: 10vh;
     margin-left: 45vw;
@@ -325,6 +326,7 @@ h5{
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px;
+    text-align: center;
 }
 .Xiao_I{
     display: none;
